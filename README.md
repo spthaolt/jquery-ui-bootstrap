@@ -1,4 +1,4 @@
-#jQuery UI Bootstrap (v0.5)
+#jQuery UI Bootstrap (v 1.0 Alpha)
 
 This project was started to bring the beauty and ease-of-use of Twitter Bootstrap to jQuery UI widgets ♥.
 
@@ -22,27 +22,31 @@ There *are* some minor known issues lingering that we're working on, but the hop
 
 ##jQuery UI support
 
-This theme targets jQuery UI 1.10.2 (stable) and 1.9.2 (legacy), along with the default version of jQuery included in the (current) jQuery UI builds (jQuery 1.6+).
+This theme targets jQuery UI 1.10.3 (stable) and 1.9.2 (legacy), along with the default version of jQuery included in the (current) jQuery UI builds (jQuery 1.6+).
 
 ##Project status
 
-This project is under active, but slow development. There has been a great deal of work done in branches to introduce compatibility with jQuery UI 1.9 and further work done to move us towards using LESS and improved parity with Bootstrap 2.x.
+This project is under active, but slow development. There has been a great deal of work done in branches to introduce compatibility with jQuery UI 1.9 and further work done to move us towards using LESS and improved parity with Bootstrap 3.x.
 
-At this time, we are seeking contributors interested in helping us to finally complete the work needed to be Bootstrap 2.x compatible. This would involve helping in your spare time across a few weeks and you would be given credit in the project README. 
+At this time, we are seeking contributors interested in helping us to finally complete the work needed to be Bootstrap 3.x compatible. This would involve helping in your spare time across a few weeks and you would be given credit in the project README. 
 
 As one of the (currently) more popular open-source jQuery UI themes we would love to get out more frequent releases and your help with this would be greatly appreciated.
 
 ##Team
 
-* [Addy Osmani](https://github.com/addyosmani) 
-* [Gerits Aurelien](https://github.com/gtraxx)
+* Lead Product Developer : [Addy Osmani](https://github.com/addyosmani) 
+* Chief Maintainer : [Gerits Aurelien](https://github.com/gtraxx)
+
+## Contributor
+
+* Less Support : [Vijay Dharap](https://github.com/dharapvj)
 * You? ;) We're always open to improvements.
 
 ##Demo
 
-For a live preview of the current theme, see [http://addyosmani.github.com/jquery-ui-bootstrap](http://addyosmani.github.com/jquery-ui-bootstrap).
+For a live preview of the current theme, see [http://jquery-ui-bootstrap.github.io/jquery-ui-bootstrap/](http://jquery-ui-bootstrap.github.io/jquery-ui-bootstrap/).
 
-##Synchronize your fork
+### Synchronize your fork
 
     cd your_fork
 
@@ -58,6 +62,25 @@ For a live preview of the current theme, see [http://addyosmani.github.com/jquer
 
     #Send your changes to github
     git push
+
+### rock on node.js bandwagon!
+```Shell
+<<install node>>
+cd your_fork
+
+# install modules (or globally with -g switch)
+npm install
+
+# run local webserver to see the pages.
+node server.js
+
+# compile your LESS changes to create a new css file
+cd less
+lessc -x style.less > style.min.css
+lessc -x style2.less > style2.min.css
+```	
+
+	
 
 ##Licence
 
